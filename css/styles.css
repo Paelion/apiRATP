@@ -19,11 +19,14 @@ body {
 
 .col--traffic {
     background-color: #ffffff;
+    padding: 30px;
 }
 
 .lines div {
     background-color: #ffffff;
     padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
 }
 
 .line--critical {
@@ -32,4 +35,8 @@ body {
 
 .line--works {
     background-color: #FFFF00 !important;
+}
+
+.lines--rers, .lines--metros, .lines--tramways{
+    padding-top: 30px;
 }
